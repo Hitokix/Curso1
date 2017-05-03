@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida Digital. Edwin Anderson</title>
+</head>
+
+<body>
+    <svg width="300px" height="100px" viewbox="0 0 300 100">
+        <image width="200px" height="100px" xlink:href="img/logo.svg"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Edwin Anderson</h2>
+    <h3>Paname&ntilde;o. Fecha de Nacimiento 14/07/1988</h3>
+    <h2>Menu</h2>
+    <ul>
+        <li>
+            <a href="index.html">
+                Inicio
+            </a>
+        </li>
+        <li>
+            <a href="educacion.html">
+                Educacion
+            </a>
+        </li>
+        <li>
+            <a href="experiencia.html">
+                Experiencia
+            </a>
+        </li>
+    </ul>
+    <h2>Educacion</h2>
+    <table border="1" cellpadding="5" cellspacing="1">
+        <thead>
+            <tr>
+                <th>A&ntilde;o</th>
+                <th>Institucion</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2005</td>
+                <td>Educacion Secundaria</td>
+                <td>Panama</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>Educacion Universitaria</td>
+                <td>Panama</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>Certificacion SAP B1</td>
+                <td>Panama</td>
+                <td>Si</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <h3>Agregar Estudios</h3>
+    <form action="educacion.html" method="POST" id="frmEdu">
+        <label for="txtYear">A&ntilde;o</label>
+        <select name="txtYear" id="txtYear">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+        </select>
+        <p>
+            <label for="txtInst">Institucion: </label>
+            <input type="text" id="txtInst" placeholder="Donde estudio?">
+        </p>
+        <p>
+            <label for="txtUbic">Lugar: </label>
+            <textarea name="txtUbic" id="txtUbic" cols="30" rows="4" placeholder="Donde queda?"></textarea>
+        </p>
+        <p>
+            <input type="submit" id="btnSubmit" value="Enviar">
+        </p>
+    </form>
+</body>
+
+<footer>
+    <h2>Contacto</h2>
+    <ul>
+        <li><strong>E-mail:</strong> <a href="mailto:rk2hb@hotmail.com" target="_top">rk2hb@hotmail.com</a></li>
+        <li><strong>Telefono</strong>: +507 200-0001</li>
+</footer>
+
+</html>
